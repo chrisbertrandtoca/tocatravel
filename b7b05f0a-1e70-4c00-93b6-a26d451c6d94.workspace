@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "id": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+    "contentHash": "muX1m3nxWT1m5aHiRsTFilz7UjBO\u002BwQcCqkiF0WRvHQ=",
+    "platformVersion": "10.0.0",
+    "updatedAt": "2026-03-30T10:47:35Z",
+    "updatedBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "createdAt": "2026-03-30T10:47:35Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "branch": "main"
+  },
+  "content": {
+    "id": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+    "icon": "travel_explore",
+    "accent": "#423ed1",
+    "route": "travelguide",
+    "description": "Space for all your favourite travel shennanigans",
+    "repositoryUrl": "https://github.com/chrisbertrandtoca/tocatravel.git",
+    "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+    "resourceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+    "name": "TravelGuide"
+  }
+}

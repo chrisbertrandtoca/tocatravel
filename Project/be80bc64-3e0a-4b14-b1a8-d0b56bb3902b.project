@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "id": "be80bc64-3e0a-4b14-b1a8-d0b56bb3902b",
+    "contentHash": "H7e6DHoLH8nDBP9EHtFPQQ03Zy97Be9r5bqGf01CfHE=",
+    "platformVersion": "10.0.0",
+    "revisionId": "19d51cc5-bbbd-4c7c-ae6a-dbdd32e05619",
+    "updatedAt": "0001-01-01T00:00:00Z",
+    "updatedBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "createdAt": "2026-03-30T10:47:54Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "branch": "main"
+  },
+  "content": {
+    "projectId": "be80bc64-3e0a-4b14-b1a8-d0b56bb3902b",
+    "description": "Things to do",
+    "associatedUsers": [
+      "cb3e6503-0240-4df6-87d6-5afff481116d"
+    ],
+    "actionGroups": [],
+    "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+    "resourceId": "be80bc64-3e0a-4b14-b1a8-d0b56bb3902b",
+    "name": "Travel Methods"
+  }
+}
