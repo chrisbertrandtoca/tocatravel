@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "id": "83ddd67c-df2a-4651-921c-bac715083295",
+    "contentHash": "VSj5zP\u002BEtZ79kTVct1VW8YZPaHB\u002B1leXbui94YBBUUs=",
+    "platformVersion": "10.0.0",
+    "revisionId": "afd6f599-4cae-42df-8a8a-d7aacbcfda16",
+    "updatedAt": "2026-03-31T15:46:42Z",
+    "updatedBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "createdAt": "2026-03-30T10:48:02Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "branch": "main"
+  },
+  "content": {
+    "projectId": "be80bc64-3e0a-4b14-b1a8-d0b56bb3902b",
+    "description": "do stuff",
+    "associatedUserId": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "botIds": [],
+    "version": 1,
+    "actions": [],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "activityServiceType": "Stateless",
+    "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+    "resourceId": "83ddd67c-df2a-4651-921c-bac715083295",
+    "name": "Find the Locations"
+  }
+}
