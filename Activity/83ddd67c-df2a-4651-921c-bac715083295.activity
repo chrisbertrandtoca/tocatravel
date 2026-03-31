@@ -1,10 +1,10 @@
 {
   "metadata": {
     "id": "83ddd67c-df2a-4651-921c-bac715083295",
-    "contentHash": "VSj5zP\u002BEtZ79kTVct1VW8YZPaHB\u002B1leXbui94YBBUUs=",
+    "contentHash": "t6SZ2Q60oBdVAkxXVpdAYvugwBtGaRFYCod/ORCEt3g=",
     "platformVersion": "10.0.0",
-    "revisionId": "afd6f599-4cae-42df-8a8a-d7aacbcfda16",
-    "updatedAt": "2026-03-31T15:46:42Z",
+    "revisionId": "bc172c6b-9240-4210-84c8-101b82ed80fa",
+    "updatedAt": "2026-03-31T15:59:20Z",
     "updatedBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
     "createdAt": "2026-03-30T10:48:02Z",
     "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
@@ -16,7 +16,36 @@
     "associatedUserId": "cb3e6503-0240-4df6-87d6-5afff481116d",
     "botIds": [],
     "version": 1,
-    "actions": [],
+    "actions": [
+      {
+        "name": "Debug Value",
+        "type": "Debug",
+        "version": "1.0.2",
+        "actionId": "c8e450e7-82cc-4f7c-8688-b753bfb675bf",
+        "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "parameters": [
+          {
+            "key": "echo",
+            "type": "String",
+            "value": "\u0022Hey dudey\u0022"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "datastoreReferences": []
+      }
+    ],
     "variableMappings": [],
     "outputMappings": [],
     "metaData": [],
