@@ -1,10 +1,10 @@
 {
   "metadata": {
     "id": "69cc3981dd423e42a863f6cb",
-    "contentHash": "oyop7j8CwWeEttK\u002Bmv/TdgGPAZHEy/Qm05vbBYabwtg=",
+    "contentHash": "6bNeNF4tCUUtBVYx1\u002BiK2xZMCpH4lHt2D9uGjC5Or6o=",
     "platformVersion": "10.0.0",
-    "revisionId": "1642e117-bd81-4a98-8c2f-3f606d7faab6",
-    "updatedAt": "2026-04-01T08:52:00Z",
+    "revisionId": "6ba15180-f29f-4060-b616-0a85bd840ea3",
+    "updatedAt": "2026-04-01T09:41:20Z",
     "updatedBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "createdAt": "2026-03-31T21:15:45Z",
     "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
@@ -30,6 +30,42 @@
         "pageEntityId": "42d8ac8d-6f55-458b-88ff-db43dc72ac86",
         "slug": "travel-guide",
         "name": "Travel Guide",
+        "parameters": [
+          {
+            "key": "modalFullHeight",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "modalWidth",
+            "type": "string",
+            "value": "\u0022lg\u0022"
+          },
+          {
+            "key": "dynamic",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "dynamicSource",
+            "type": "parameter"
+          },
+          {
+            "key": "dynamicKey",
+            "type": "string"
+          },
+          {
+            "key": "modalTitle",
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "41f41ba8-0123-4b64-92f2-677d772bdda3",
+        "pageId": "69cce840dd423e42a863f6fa",
+        "pageEntityId": "e623ee44-0e4b-48aa-bbb3-9ea5c07eb33e",
+        "slug": "more-pages",
+        "name": "more pages",
         "parameters": [
           {
             "key": "modalFullHeight",
