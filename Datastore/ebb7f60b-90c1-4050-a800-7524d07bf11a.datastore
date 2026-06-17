@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "id": "ebb7f60b-90c1-4050-a800-7524d07bf11a",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-06-17T09:57:35Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "uuid": "ebb7f60b-90c1-4050-a800-7524d07bf11a",
+    "description": "",
+    "datastoreType": "Internal",
+    "datastoreParameters": [
+      {
+        "datastoreId": "ebb7f60b-90c1-4050-a800-7524d07bf11a",
+        "uuid": "019ed503-d05f-70b1-8021-d4bb982a4995",
+        "key": "fileDrive",
+        "type": "FilesLocator",
+        "value": "{\u0022type\u0022:\u0022ObjectStore\u0022}",
+        "revision": "019ed503-d06a-70bd-b63e-9515e9069c34"
+      },
+      {
+        "datastoreId": "ebb7f60b-90c1-4050-a800-7524d07bf11a",
+        "uuid": "019ed505-a4b1-73ee-bc01-260a55842620",
+        "key": "Users",
+        "type": "TableV3",
+        "value": "019ed505-a4b1-73ee-bc01-260a55842620",
+        "revision": "019ed505-a4b1-73ef-93de-b28db500d8d3"
+      }
+    ],
+    "tables": [
+      {
+        "id": "019ed505-a4b1-73ee-bc01-260a55842620",
+        "name": "Users",
+        "datastoreParameterId": "019ed505-a4b1-73ee-bc01-260a55842620",
+        "model": {
+          "id": {
+            "name": "id",
+            "label": "id",
+            "type": "uuid",
+            "isPrimaryKey": true,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": true,
+              "dataType": "Uuid"
+            }
+          },
+          "created": {
+            "name": "created",
+            "label": "Created",
+            "type": "datetime",
+            "isPrimaryKey": false,
+            "metaData": {
+              "autoGenerate": true
+            },
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "DateTime"
+            }
+          },
+          "updated": {
+            "name": "updated",
+            "label": "Updated",
+            "type": "datetime",
+            "isPrimaryKey": false,
+            "metaData": {
+              "autoGenerate": true,
+              "autoUpdate": true
+            },
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "DateTime"
+            }
+          },
+          "name": {
+            "name": "name",
+            "label": "name",
+            "type": "string",
+            "isPrimaryKey": false,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "Text"
+            }
+          }
+        },
+        "relationships": [],
+        "selectQuery": "SELECT c.\u0060created\u0060 AS \u0027c.created\u0027,c.\u0060id\u0060 AS \u0027c.id\u0027,c.\u0060name\u0060 AS \u0027c.name\u0027,c.\u0060updated\u0060 AS \u0027c.updated\u0027 FROM \u0060019ed505-a4b1-73ee-bc01-260a55842620\u0060 c",
+        "nonRecursiveSelectQuery": "SELECT c.* FROM \u0060019ed505-a4b1-73ee-bc01-260a55842620\u0060 c ",
+        "indexes": [
+          {
+            "name": "PRIMARY",
+            "columns": {
+              "id": "Ascending"
+            },
+            "unique": true,
+            "type": "BTree"
+          }
+        ],
+        "position": [
+          19,
+          27
+        ],
+        "revision": "019ed505-a737-767f-a9b7-16b1be0d9b22"
+      }
+    ],
+    "tableMigrations": [],
+    "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+    "resourceId": "ebb7f60b-90c1-4050-a800-7524d07bf11a",
+    "name": "USers"
+  }
+}

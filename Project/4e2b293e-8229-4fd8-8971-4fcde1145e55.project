@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "id": "4e2b293e-8229-4fd8-8971-4fcde1145e55",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-06-17T09:44:58Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "4e2b293e-8229-4fd8-8971-4fcde1145e55",
+    "description": "asd",
+    "deactivated": false,
+    "actionGroups": [],
+    "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+    "resourceId": "4e2b293e-8229-4fd8-8971-4fcde1145e55",
+    "name": "empty"
+  }
+}

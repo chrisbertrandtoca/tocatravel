@@ -1,4 +1,237 @@
 {
   "version": 1,
-  "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94"
+  "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+  "resources": [
+    {
+      "type": "GitPageResource",
+      "id": "c220788e-cd0a-4423-b415-ab2345305fd0",
+      "path": "Page/c220788e-cd0a-4423-b415-ab2345305fd0.page",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "09e81fb3-2102-4f65-94f9-b710ce98facf",
+            "name": "Flex Layout",
+            "version": "0.0.5"
+          },
+          {
+            "definitionId": "b5bbb3b0-7f91-484e-b9b0-9d33213b0aef",
+            "name": "Form Layout",
+            "version": "1.0.21"
+          },
+          {
+            "definitionId": "0d94b001-1d4a-4402-b17c-30679aaea575",
+            "name": "Text Field",
+            "version": "0.0.7"
+          },
+          {
+            "definitionId": "a1b5e976-531f-446d-9914-6615d6723d2d",
+            "name": "Submit Button",
+            "version": "0.0.3"
+          },
+          {
+            "definitionId": "f216e14a-dc5a-49fd-bf7e-a8dec9b18b66",
+            "name": "Paper",
+            "version": "0.0.4"
+          },
+          {
+            "definitionId": "503baa9f-7d16-4115-9265-b59576aa1d6f",
+            "name": "Text",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "ee9f72c1-92d0-47a0-8b65-8e93736e8d6d",
+            "name": "Icon",
+            "version": "0.0.3"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "0868caac-dd3f-4d3d-89b4-5e681a9c7b7e",
+      "path": "Page/0868caac-dd3f-4d3d-89b4-5e681a9c7b7e.page",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "2a5d602c-9258-4428-8c18-203f9185d7ce",
+            "name": "Text",
+            "version": "0.0.9"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "c1adc1f8-acc1-41b7-b462-abaf17cce762",
+      "path": "Page/c1adc1f8-acc1-41b7-b462-abaf17cce762.page",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "09e81fb3-2102-4f65-94f9-b710ce98facf",
+            "name": "Flex Layout",
+            "version": "0.0.5"
+          },
+          {
+            "definitionId": "f216e14a-dc5a-49fd-bf7e-a8dec9b18b66",
+            "name": "Paper",
+            "version": "0.0.4"
+          },
+          {
+            "definitionId": "503baa9f-7d16-4115-9265-b59576aa1d6f",
+            "name": "Text",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "cd76f25c-687a-46c8-b2d7-5bd323b64545",
+            "name": "Image",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "82ce0ff7-4aa8-45ee-8483-0a0d52d343b3",
+            "name": "Text",
+            "version": "0.0.5"
+          },
+          {
+            "definitionId": "d1a05031-2152-49be-8cc3-96a4dac06299",
+            "name": "Button",
+            "version": "0.0.4"
+          },
+          {
+            "definitionId": "de8f3ce2-6c0d-41a8-96d5-67058555e0ce",
+            "name": "Transition",
+            "version": "0.0.2"
+          },
+          {
+            "definitionId": "55275662-edbf-4fad-9116-2dcfaf9e1d04",
+            "name": "Form Layout",
+            "version": "1.0.18"
+          },
+          {
+            "definitionId": "0d94b001-1d4a-4402-b17c-30679aaea575",
+            "name": "Text Field",
+            "version": "0.0.7"
+          },
+          {
+            "definitionId": "a1b5e976-531f-446d-9914-6615d6723d2d",
+            "name": "Submit Button",
+            "version": "0.0.3"
+          }
+        ],
+        "appActionsDetails": [
+          {
+            "definitionId": "61721138-937c-4c86-8139-16a25e534583",
+            "name": "Get In Page Value",
+            "version": "1.1.2"
+          },
+          {
+            "definitionId": "cbaeab10-733a-4889-a397-5c92e3849162",
+            "name": "Trigger Event Listener",
+            "version": "0.0.2"
+          },
+          {
+            "definitionId": "3eafce57-25bc-4d9d-af4a-0d622cf4d83d",
+            "name": "Set Component Property",
+            "version": "0.0.2"
+          },
+          {
+            "definitionId": "3fd837b9-083d-43c4-9288-f9db31fb3866",
+            "name": "Set In Page Value",
+            "version": "1.0.3"
+          }
+        ]
+      }
+    },
+    {
+      "type": "GitAppResource",
+      "id": "6a32679d97510133173b2e89",
+      "path": "App/6a32679d97510133173b2e89.app",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "0ca58a6d-ae66-4980-bc51-66a109af6dde",
+      "path": "Page/0ca58a6d-ae66-4980-bc51-66a109af6dde.page",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "2a5d602c-9258-4428-8c18-203f9185d7ce",
+            "name": "Text",
+            "version": "0.0.9"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitProjectResource",
+      "id": "4e2b293e-8229-4fd8-8971-4fcde1145e55",
+      "path": "Project/4e2b293e-8229-4fd8-8971-4fcde1145e55.project",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitWorkflowResource",
+      "id": "f727384f-4edd-4862-9d52-8160b4b0574e",
+      "path": "Workflow/f727384f-4edd-4862-9d52-8160b4b0574e.workflow",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitListenerResource",
+      "id": "79cd3235-141c-4945-9efc-aaced51cdaa7",
+      "path": "Listener/79cd3235-141c-4945-9efc-aaced51cdaa7.listener",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitDatastoreResource",
+      "id": "ebb7f60b-90c1-4050-a800-7524d07bf11a",
+      "path": "Datastore/ebb7f60b-90c1-4050-a800-7524d07bf11a.datastore",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitActivityResource",
+      "id": "5d05b7cc-3f69-4cd6-8818-4eb878c56204",
+      "path": "Activity/5d05b7cc-3f69-4cd6-8818-4eb878c56204.activity",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    }
+  ],
+  "environmentMappings": []
 }
