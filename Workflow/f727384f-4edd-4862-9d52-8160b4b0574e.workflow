@@ -41,7 +41,7 @@
         ]
       },
       {
-        "category": "StatelessActivity",
+        "category": "Activity",
         "text": "nothing",
         "key": 3,
         "loc": "925 375",
@@ -153,7 +153,7 @@
         "status": 0
       },
       {
-        "Type": "StatelessActivity",
+        "Type": "Activity",
         "id": "b7ba870b-9e1d-49a1-ad0f-02cf982a2092",
         "name": "nothing",
         "description": "nothing",

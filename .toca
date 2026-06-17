@@ -169,14 +169,7 @@
         "actionDetails": [],
         "componentDetails": [
           {
-            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
-            "name": "Flex Layout",
-            "version": "0.0.6"
-          },
-          {
-            "definitionId": "2a5d602c-9258-4428-8c18-203f9185d7ce",
-            "name": "Text",
-            "version": "0.0.9"
+            "definitionId": "block/6a328752e7508cd49c809ed6"
           }
         ],
         "appActionsDetails": []
@@ -229,6 +222,27 @@
       "dependencies": {
         "actionDetails": [],
         "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "6a328752e7508cd49c809ed6",
+      "path": "Block/6a328752e7508cd49c809ed6.block",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "2a5d602c-9258-4428-8c18-203f9185d7ce",
+            "name": "Text",
+            "version": "0.0.9"
+          }
+        ],
         "appActionsDetails": []
       }
     }

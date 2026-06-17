@@ -10,7 +10,9 @@
     "projectId": "4e2b293e-8229-4fd8-8971-4fcde1145e55",
     "description": "asd",
     "associatedUserId": "cb3e6503-0240-4df6-87d6-5afff481116d",
-    "botIds": [],
+    "botIds": [
+      "alias:bot-CBPAD"
+    ],
     "version": 1,
     "actions": [],
     "variableMappings": [
@@ -29,7 +31,7 @@
       }
     ],
     "deleted": false,
-    "activityServiceType": "Stateless",
+    "activityServiceType": "Gui",
     "migratedToBotUuid": false,
     "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
     "resourceId": "5d05b7cc-3f69-4cd6-8818-4eb878c56204",
