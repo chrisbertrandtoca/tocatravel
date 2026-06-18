@@ -245,6 +245,37 @@
         ],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "6a32b28ff323ef6a4c3463fc",
+      "path": "Block/6a32b28ff323ef6a4c3463fc.block",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "2a5d602c-9258-4428-8c18-203f9185d7ce",
+            "name": "Text",
+            "version": "0.0.9"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitWorkspaceResource",
+      "id": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+      "path": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94.workspace",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
     }
   ],
   "environmentMappings": []

@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "id": "6a32b28ff323ef6a4c3463fc",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-06-17T14:43:27Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "blockId": "6a32b28ff323ef6a4c3463fc",
+    "appId": "6a32679d97510133173b2e89",
+    "blueprint": {
+      "version": "2",
+      "rootComponentId": "e52808ca-913c-4c55-818f-e0e25a176e7c",
+      "components": {
+        "e52808ca-913c-4c55-818f-e0e25a176e7c": {
+          "id": "e52808ca-913c-4c55-818f-e0e25a176e7c",
+          "name": "Flex Layout_ZQFU",
+          "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+          "slots": {
+            "root": [
+              "28120f46-7682-4426-a2ee-7d42ffd40219"
+            ]
+          },
+          "options": {
+            "spaceBetween": 0,
+            "align": "stretch",
+            "justify": "start",
+            "direction": 1
+          },
+          "slotProps": {},
+          "classes": {
+            "root": []
+          }
+        },
+        "28120f46-7682-4426-a2ee-7d42ffd40219": {
+          "id": "28120f46-7682-4426-a2ee-7d42ffd40219",
+          "name": "Text_AXIx",
+          "definitionId": "2a5d602c-9258-4428-8c18-203f9185d7ce",
+          "slots": {},
+          "options": {
+            "value": {
+              "model": "{\u0022blocks\u0022:[{\u0022key\u0022:\u0022cgu7e\u0022,\u0022text\u0022:\u0022Authed PAge\u0022,\u0022type\u0022:\u0022header-two\u0022,\u0022depth\u0022:0,\u0022inlineStyleRanges\u0022:[],\u0022entityRanges\u0022:[],\u0022data\u0022:{}},{\u0022key\u0022:\u00227bbab\u0022,\u0022text\u0022:\u0022for Username\u200B\u0022,\u0022type\u0022:\u0022header-two\u0022,\u0022depth\u0022:0,\u0022inlineStyleRanges\u0022:[],\u0022entityRanges\u0022:[{\u0022offset\u0022:4,\u0022length\u0022:8,\u0022key\u0022:0}],\u0022data\u0022:{}}],\u0022entityMap\u0022:{\u00220\u0022:{\u0022type\u0022:\u0022DATACHIP\u0022,\u0022mutability\u0022:\u0022IMMUTABLE\u0022,\u0022data\u0022:{\u0022datachip\u0022:{\u0022type\u0022:\u0022userData\u0022,\u0022column\u0022:\u0022username\u0022,\u0022name\u0022:\u0022Username\u0022,\u0022subscribeToChanges\u0022:true,\u0022path\u0022:\u0022\u0022}}}}}",
+              "fonts": []
+            },
+            "maxWidth": "",
+            "minWidth": "",
+            "palette": {
+              "name": "toca",
+              "colours": [
+                "#ffffff",
+                "#dcdcdc",
+                "#bbbbbb",
+                "#707070",
+                "#e91e63",
+                "#470e3b",
+                "#ad1457",
+                "#682e40",
+                "#880e4f",
+                "#1565C0",
+                "#6a1b9a",
+                "#551046"
+              ]
+            },
+            "eventListenerName": "28120f46-7682-4426-a2ee-7d42ffd40219_setValue"
+          },
+          "slotProps": {},
+          "classes": {
+            "root": []
+          }
+        }
+      },
+      "viewports": {
+        "414": [],
+        "768": [],
+        "1280": [],
+        "1440": []
+      }
+    },
+    "inputs": [],
+    "associatedUserId": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "deleted": false,
+    "global": false,
+    "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+    "resourceId": "6a32b28ff323ef6a4c3463fc",
+    "name": "flexText"
+  }
+}
