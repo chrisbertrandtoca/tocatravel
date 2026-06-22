@@ -1,4 +1,43 @@
 {
   "version": 1,
-  "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94"
+  "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+  "resources": [
+    {
+      "type": "GitWorkspaceResource",
+      "id": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+      "path": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94.workspace",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitProjectResource",
+      "id": "0b1a886b-2f27-4f75-b7d9-e6e9a178e564",
+      "path": "Project/0b1a886b-2f27-4f75-b7d9-e6e9a178e564.project",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitActivityResource",
+      "id": "cd3c7705-d958-4286-9365-322ab535104a",
+      "path": "Activity/cd3c7705-d958-4286-9365-322ab535104a.activity",
+      "dependencies": {
+        "actionDetails": [
+          {
+            "definitionId": "a62ecaca-85b3-4f5d-b00b-d6cdc7023daa",
+            "name": "Repeat",
+            "version": "1.0.4"
+          }
+        ],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    }
+  ],
+  "environmentMappings": []
 }
