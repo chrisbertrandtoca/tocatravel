@@ -18,7 +18,7 @@
     "version": 1,
     "actions": [
       {
-        "name": "Debug Value",
+        "name": "Debug Valuecasdas",
         "type": "Debug",
         "version": "1.0.2",
         "actionId": "c8e450e7-82cc-4f7c-8688-b753bfb675bf",
