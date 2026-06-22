@@ -12,7 +12,7 @@
   },
   "content": {
     "projectId": "be80bc64-3e0a-4b14-b1a8-d0b56bb3902b",
-    "description": "do stuff",
+    "description": "do stufA  AAf",
     "associatedUserId": "cb3e6503-0240-4df6-87d6-5afff481116d",
     "botIds": [],
     "version": 1,
@@ -46,7 +46,7 @@
         "datastoreReferences": []
       },
       {
-        "name": "Python",
+        "name": "Pytho AAn",
         "type": "ExecutePythonScript",
         "version": "1.0.6",
         "actionId": "6f5ccabd-9f9f-4119-987b-8a6ab33f4b43",
