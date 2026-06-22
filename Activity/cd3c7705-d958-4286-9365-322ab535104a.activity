@@ -14,7 +14,7 @@
     "version": 1,
     "actions": [
       {
-        "name": "Repeat",
+        "name": "Repeat mr",
         "type": "Repeat",
         "version": "1.0.4",
         "originId": "06a0b7b6-0858-2ea6-7d57-81b356c5ddba",
