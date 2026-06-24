@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "id": "6a38ecb95b47caf8587d0465",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-06-22T08:05:13Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "blockId": "6a38ecb95b47caf8587d0465",
+    "appId": "69cc3981dd423e42a863f6cb",
+    "blueprint": {
+      "version": "2",
+      "rootComponentId": "cfa57d47-d068-415e-8081-9bcf419c61d0",
+      "components": {
+        "cfa57d47-d068-415e-8081-9bcf419c61d0": {
+          "id": "cfa57d47-d068-415e-8081-9bcf419c61d0",
+          "name": "Flex Layout_iVIK",
+          "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+          "slots": {
+            "root": [
+              "86deae37-a1ff-4524-a3e5-0eb26332cdbd"
+            ]
+          },
+          "options": {
+            "spaceBetween": 0,
+            "align": "stretch",
+            "justify": "start",
+            "direction": 1
+          },
+          "slotProps": {},
+          "classes": {
+            "root": []
+          }
+        },
+        "86deae37-a1ff-4524-a3e5-0eb26332cdbd": {
+          "id": "86deae37-a1ff-4524-a3e5-0eb26332cdbd",
+          "name": "Hero_BpLl",
+          "definitionId": "8573a8fe-7ac8-4ca4-8b7b-3e925ca6c6e7",
+          "slots": {
+            "hero": [
+              "faa03a1d-d578-46d1-a639-20f0c50831c0"
+            ]
+          },
+          "options": {
+            "width": "640px",
+            "height": "auto",
+            "alignment": "Center"
+          },
+          "slotProps": {},
+          "classes": {
+            "root": []
+          }
+        },
+        "faa03a1d-d578-46d1-a639-20f0c50831c0": {
+          "id": "faa03a1d-d578-46d1-a639-20f0c50831c0",
+          "name": "Apex Pie Chart_bERU",
+          "definitionId": "750b59a6-2bd0-47ed-8851-bf83e453f1a4",
+          "slots": {},
+          "options": {
+            "colors": [],
+            "type": "pie",
+            "dimensions": {
+              "width": 100,
+              "height": 300,
+              "widthUnit": "%",
+              "heightUnit": "px"
+            },
+            "misc": {
+              "plotOptions": {
+                "dataLabels": {
+                  "enabled": false
+                }
+              },
+              "tooltip": {
+                "enabled": true
+              },
+              "legend": {
+                "show": true,
+                "position": "bottom",
+                "horizontalAlign": "center"
+              },
+              "factor": 1,
+              "animations": {
+                "enabled": true
+              },
+              "grid": {
+                "show": true
+              }
+            }
+          },
+          "slotProps": {},
+          "classes": {
+            "root": []
+          }
+        }
+      },
+      "viewports": {
+        "414": [],
+        "768": [],
+        "1280": [],
+        "1440": []
+      }
+    },
+    "inputs": [],
+    "associatedUserId": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "deleted": false,
+    "global": false,
+    "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+    "resourceId": "6a38ecb95b47caf8587d0465",
+    "name": "flexHeroChart"
+  }
+}

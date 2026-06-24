@@ -1,4 +1,4 @@
-# Wanderlust & Wonder: A Guide to the Joys of Travel
+# Wanderlust & Wonder: A Guide to the Joy of Travel
 
 Traveling is more than just a change of scenery; it’s a deliberate shift in perspective. Whether you’re trekking through a neon-soaked metropolis or sipping espresso in a quiet cobblestone alley, the act of leaving home is a profound investment in yourself.
 

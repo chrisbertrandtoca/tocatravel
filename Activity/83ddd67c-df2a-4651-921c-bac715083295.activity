@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "id": "83ddd67c-df2a-4651-921c-bac715083295",
+    "contentHash": "STaqxuclhAbHvGL86GpxWtpz9dkQvjJuOjeVU9BGFzA=",
+    "platformVersion": "10.0.0",
+    "revisionId": "8be8b084-e7a6-414b-a2b3-effaefff1217",
+    "updatedAt": "2026-04-01T09:00:28Z",
+    "updatedBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "createdAt": "2026-03-30T10:48:02Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "branch": "main"
+  },
+  "content": {
+    "projectId": "be80bc64-3e0a-4b14-b1a8-d0b56bb3902b",
+    "description": "do stuff",
+    "associatedUserId": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "botIds": [],
+    "version": 1,
+    "actions": [
+      {
+        "name": "Debug Value",
+        "type": "Debug",
+        "version": "1.0.2",
+        "actionId": "c8e450e7-82cc-4f7c-8688-b753bfb675bf",
+        "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "parameters": [
+          {
+            "key": "echo",
+            "type": "String",
+            "value": "\u0022Hey dudey\u0022"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "datastoreReferences": []
+      },
+      {
+        "name": "Python",
+        "type": "ExecutePythonScript",
+        "version": "1.0.6",
+        "actionId": "6f5ccabd-9f9f-4119-987b-8a6ab33f4b43",
+        "actionDefinitionActionId": "269d731f-0848-4d97-adb7-c64ac01cad48",
+        "parameters": [
+          {
+            "key": "command-chip",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "command",
+            "type": "String",
+            "value": "\u0022# python rules\u0022"
+          },
+          {
+            "key": "tempContext",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "datastoreReferences": []
+      }
+    ],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "activityServiceType": "Stateless",
+    "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+    "resourceId": "83ddd67c-df2a-4651-921c-bac715083295",
+    "name": "Find the Locations"
+  }
+}
