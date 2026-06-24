@@ -1,14 +1,10 @@
 {
   "metadata": {
     "id": "83ddd67c-df2a-4651-921c-bac715083295",
-    "contentHash": "STaqxuclhAbHvGL86GpxWtpz9dkQvjJuOjeVU9BGFzA=",
     "platformVersion": "10.0.0",
-    "revisionId": "8be8b084-e7a6-414b-a2b3-effaefff1217",
-    "updatedAt": "2026-04-01T09:00:28Z",
-    "updatedBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
     "createdAt": "2026-03-30T10:48:02Z",
     "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
-    "branch": "main"
+    "schemaVersion": "1.0.0"
   },
   "content": {
     "projectId": "be80bc64-3e0a-4b14-b1a8-d0b56bb3902b",
@@ -23,6 +19,10 @@
         "version": "1.0.2",
         "actionId": "c8e450e7-82cc-4f7c-8688-b753bfb675bf",
         "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
         "parameters": [
           {
             "key": "echo",
@@ -43,6 +43,8 @@
         "variables": [],
         "results": [],
         "logs": [],
+        "status": 0,
+        "breakPoint": "None",
         "datastoreReferences": []
       },
       {
@@ -51,6 +53,10 @@
         "version": "1.0.6",
         "actionId": "6f5ccabd-9f9f-4119-987b-8a6ab33f4b43",
         "actionDefinitionActionId": "269d731f-0848-4d97-adb7-c64ac01cad48",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
         "parameters": [
           {
             "key": "command-chip",
@@ -91,13 +97,62 @@
         "variables": [],
         "results": [],
         "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      },
+      {
+        "name": "Repeat",
+        "type": "Repeat",
+        "version": "1.0.4",
+        "originId": "06a0b7b6-0858-2ea6-7d57-81b356c5ddba",
+        "actionId": "3d1143cb-6720-4a82-9784-cbb048a5e9f6",
+        "actionDefinitionActionId": "a62ecaca-85b3-4f5d-b00b-d6cdc7023daa",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "counter",
+            "type": "Number",
+            "value": "1"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "-1"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
         "datastoreReferences": []
       }
     ],
     "variableMappings": [],
     "outputMappings": [],
     "metaData": [],
+    "deleted": false,
     "activityServiceType": "Stateless",
+    "migratedToBotUuid": false,
     "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
     "resourceId": "83ddd67c-df2a-4651-921c-bac715083295",
     "name": "Find the Locations"

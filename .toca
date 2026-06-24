@@ -1,4 +1,115 @@
 {
   "version": 1,
-  "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94"
+  "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+  "resources": [
+    {
+      "type": "GitWorkspaceResource",
+      "id": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
+      "path": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94.workspace",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitProjectResource",
+      "id": "4e2b293e-8229-4fd8-8971-4fcde1145e55",
+      "path": "Project/4e2b293e-8229-4fd8-8971-4fcde1145e55.project",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitProjectResource",
+      "id": "be80bc64-3e0a-4b14-b1a8-d0b56bb3902b",
+      "path": "Project/be80bc64-3e0a-4b14-b1a8-d0b56bb3902b.project",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "6a328752e7508cd49c809ed6",
+      "path": "Block/6a328752e7508cd49c809ed6.block",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "2a5d602c-9258-4428-8c18-203f9185d7ce",
+            "name": "Text",
+            "version": "0.0.9"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "6a32b28ff323ef6a4c3463fc",
+      "path": "Block/6a32b28ff323ef6a4c3463fc.block",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "2a5d602c-9258-4428-8c18-203f9185d7ce",
+            "name": "Text",
+            "version": "0.0.9"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "6a38ecb95b47caf8587d0465",
+      "path": "Block/6a38ecb95b47caf8587d0465.block",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "8573a8fe-7ac8-4ca4-8b7b-3e925ca6c6e7",
+            "name": "Hero",
+            "version": "0.0.1"
+          },
+          {
+            "definitionId": "750b59a6-2bd0-47ed-8851-bf83e453f1a4",
+            "name": "Apex Pie Chart",
+            "version": "0.0.8"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitListenerResource",
+      "id": "79cd3235-141c-4945-9efc-aaced51cdaa7",
+      "path": "Listener/79cd3235-141c-4945-9efc-aaced51cdaa7.listener",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    }
+  ],
+  "environmentMappings": []
 }
