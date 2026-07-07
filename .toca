@@ -37,6 +37,63 @@
         "componentDetails": [],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "42d8ac8d-6f55-458b-88ff-db43dc72ac86",
+      "path": "Page/42d8ac8d-6f55-458b-88ff-db43dc72ac86.page",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "000fb580-28fa-4798-a568-504aef84b5d2",
+            "name": "Card",
+            "version": "0.0.5"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "1b10790f-ce2e-47f7-9839-d880a5267d9f",
+      "path": "Page/1b10790f-ce2e-47f7-9839-d880a5267d9f.page",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "000fb580-28fa-4798-a568-504aef84b5d2",
+            "name": "Card",
+            "version": "0.0.5"
+          },
+          {
+            "definitionId": "2a5d602c-9258-4428-8c18-203f9185d7ce",
+            "name": "Text",
+            "version": "0.0.9"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitDatastoreResource",
+      "id": "89945bce-1fed-465e-8cda-90d8affadef5",
+      "path": "Datastore/89945bce-1fed-465e-8cda-90d8affadef5.datastore",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
     }
   ],
   "environmentMappings": []
