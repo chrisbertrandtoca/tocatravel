@@ -94,7 +94,74 @@
         "componentDetails": [],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitProjectResource",
+      "id": "be80bc64-3e0a-4b14-b1a8-d0b56bb3902b",
+      "path": "Project/be80bc64-3e0a-4b14-b1a8-d0b56bb3902b.project",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitActivityResource",
+      "id": "83ddd67c-df2a-4651-921c-bac715083295",
+      "path": "Activity/83ddd67c-df2a-4651-921c-bac715083295.activity",
+      "dependencies": {
+        "actionDetails": [
+          {
+            "definitionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+            "name": "Debug Value",
+            "version": "1.0.2"
+          },
+          {
+            "definitionId": "269d731f-0848-4d97-adb7-c64ac01cad48",
+            "name": "Python",
+            "version": "1.0.6"
+          },
+          {
+            "definitionId": "8166ba31-6b9c-4838-a5a9-acf679684e62",
+            "name": "Open Browser",
+            "version": "1.0.5"
+          },
+          {
+            "definitionId": "1648e989-3a97-4776-82a1-4b8f493270d1",
+            "name": "Get Web Element",
+            "version": "1.0.6"
+          },
+          {
+            "definitionId": "0a527d24-4354-41eb-948e-0c8ce8d85ea5",
+            "name": "Capture Screen",
+            "version": "1.0.3"
+          },
+          {
+            "definitionId": "7c8485d8-788b-4c9c-b60d-81df1715dc80",
+            "name": "Image Click",
+            "version": "1.0.10"
+          }
+        ],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitWorkflowResource",
+      "id": "6f16adea-1df6-46f1-b03f-eb074541be8a",
+      "path": "Workflow/6f16adea-1df6-46f1-b03f-eb074541be8a.workflow",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
     }
   ],
-  "environmentMappings": []
+  "environmentMappings": [
+    {
+      "resourceType": "Bot",
+      "aliasKey": "bot-Nightly-Bot-0001",
+      "aliasValue": "alias:bot-Nightly-Bot-0001"
+    }
+  ]
 }

@@ -1,20 +1,18 @@
 {
   "metadata": {
     "id": "83ddd67c-df2a-4651-921c-bac715083295",
-    "contentHash": "STaqxuclhAbHvGL86GpxWtpz9dkQvjJuOjeVU9BGFzA=",
     "platformVersion": "10.0.0",
-    "revisionId": "8be8b084-e7a6-414b-a2b3-effaefff1217",
-    "updatedAt": "2026-04-01T09:00:28Z",
-    "updatedBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
     "createdAt": "2026-03-30T10:48:02Z",
-    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
-    "branch": "main"
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
   },
   "content": {
     "projectId": "be80bc64-3e0a-4b14-b1a8-d0b56bb3902b",
     "description": "do stuff",
     "associatedUserId": "cb3e6503-0240-4df6-87d6-5afff481116d",
-    "botIds": [],
+    "botIds": [
+      "alias:bot-Nightly-Bot-0001"
+    ],
     "version": 1,
     "actions": [
       {
@@ -23,6 +21,10 @@
         "version": "1.0.2",
         "actionId": "c8e450e7-82cc-4f7c-8688-b753bfb675bf",
         "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
         "parameters": [
           {
             "key": "echo",
@@ -43,6 +45,8 @@
         "variables": [],
         "results": [],
         "logs": [],
+        "status": 0,
+        "breakPoint": "None",
         "datastoreReferences": []
       },
       {
@@ -51,6 +55,10 @@
         "version": "1.0.6",
         "actionId": "6f5ccabd-9f9f-4119-987b-8a6ab33f4b43",
         "actionDefinitionActionId": "269d731f-0848-4d97-adb7-c64ac01cad48",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
         "parameters": [
           {
             "key": "command-chip",
@@ -91,13 +99,287 @@
         "variables": [],
         "results": [],
         "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      },
+      {
+        "name": "Open Browser",
+        "type": "BrowserCombo",
+        "version": "1.0.5",
+        "originId": "ab7eaad2-9fd8-274c-7787-ec160074260c",
+        "actionId": "ff58ace1-6947-4876-a998-a069ac952da8",
+        "actionDefinitionActionId": "8166ba31-6b9c-4838-a5a9-acf679684e62",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "browserType",
+            "type": "String",
+            "value": "\u0022Chrome\u0022"
+          },
+          {
+            "key": "url",
+            "type": "String",
+            "value": "\u0022https://eurogamer.net\u0022"
+          },
+          {
+            "key": "browserAlias",
+            "type": "String",
+            "value": "\u0022eu\u0022"
+          },
+          {
+            "key": "maximize",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "focusBrowser",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "continueWithoutWait",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "extension",
+            "type": "String",
+            "value": "\u0022\u0022"
+          },
+          {
+            "key": "alertManagement",
+            "type": "String",
+            "value": "\u0022accept\u0022"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      },
+      {
+        "name": "Get Web Element",
+        "type": "GetWebElementsV2",
+        "version": "1.0.6",
+        "originId": "6a0040d8-9ea4-e675-c176-70d61aa2101f",
+        "actionId": "e9b29ed6-6ca2-457f-b639-76588c9c936a",
+        "actionDefinitionActionId": "1648e989-3a97-4776-82a1-4b8f493270d1",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "xpathTag",
+            "type": "String",
+            "value": "\u0022button\u0022"
+          },
+          {
+            "key": "xpathImage",
+            "type": "Image",
+            "value": "\u0022019f8a23-56de-734c-8c7d-524459acdeb6\u0022"
+          },
+          {
+            "key": "browserAlias",
+            "type": "String",
+            "value": "\u0022eu\u0022"
+          },
+          {
+            "key": "xpath",
+            "type": "String",
+            "value": "\u0022/html/body/div[3]/div[2]/div/div/div[2]/div/div/button[2]\u0022"
+          },
+          {
+            "key": "interaction",
+            "type": "String",
+            "value": "\u0022click\u0022"
+          },
+          {
+            "key": "retryCount",
+            "type": "Number",
+            "value": "0"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      },
+      {
+        "name": "Capture Screen",
+        "type": "CaptureScreen",
+        "version": "1.0.3",
+        "originId": "cb6d7524-b480-e48e-1829-e77747783eff",
+        "actionId": "59d09faa-15ab-4e7b-b22c-99a86f3b6b8c",
+        "actionDefinitionActionId": "0a527d24-4354-41eb-948e-0c8ce8d85ea5",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "regionImage",
+            "type": "Image",
+            "value": "\u0022019f8a24-32e3-738c-b83a-7c9ac4c59a75\u0022"
+          },
+          {
+            "key": "region",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:454,\u0022y\u0022:304,\u0022w\u0022:326,\u0022h\u0022:285}"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      },
+      {
+        "name": "Image Click",
+        "type": "ImageClick",
+        "version": "1.0.10",
+        "originId": "c3df3fb3-a748-013c-503e-dfe196bd3b51",
+        "actionId": "18371574-bc99-4606-8644-67fb8342d37a",
+        "actionDefinitionActionId": "7c8485d8-788b-4c9c-b60d-81df1715dc80",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "image",
+            "type": "Image",
+            "value": "\u0022019f8a28-5e0c-75c4-a3d9-fb6ae94417c9\u0022"
+          },
+          {
+            "key": "imageBox",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:449,\u0022y\u0022:364,\u0022w\u0022:234,\u0022h\u0022:139}"
+          },
+          {
+            "key": "clickType",
+            "type": "String",
+            "value": "\u0022Left\u0022"
+          },
+          {
+            "key": "colorMatch",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "templateThreshold",
+            "type": "Number",
+            "value": "0.9"
+          },
+          {
+            "key": "delay",
+            "type": "Number",
+            "value": "0"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
         "datastoreReferences": []
       }
     ],
     "variableMappings": [],
     "outputMappings": [],
     "metaData": [],
-    "activityServiceType": "Stateless",
+    "deleted": false,
+    "activityServiceType": "Gui",
+    "migratedToBotUuid": false,
     "workspaceId": "b7b05f0a-1e70-4c00-93b6-a26d451c6d94",
     "resourceId": "83ddd67c-df2a-4651-921c-bac715083295",
     "name": "Find the Locations"
